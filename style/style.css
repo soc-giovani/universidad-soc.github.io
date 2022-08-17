@@ -2,7 +2,6 @@
     --bg-login: #F2F2F2;
     --text-login: #215287;
     --verde-soc: #60A340;
-
     --deg: linear-gradient(90deg, #00588A 0%, #01A9CE 51.56%, #009B4D 100%);
 }
 
@@ -17,7 +16,7 @@ body{
     font-weight: 500;
 }
 .link-nav:hover{
-    color: #60A340;
+    color: var(--verde-soc);
     font-weight: 600;
     text-decoration:underline;
 
@@ -117,7 +116,7 @@ h2{
     font-size: 33px;
 }
 .descargar-curso{
-    color: #60A340;
+    color: var(--verde-soc);
     text-decoration:underline;
     font-weight: 700;
     font-size: 22px;
@@ -126,7 +125,7 @@ h2{
 .descargar-curso:hover{
     font-weight: 800;
     font-size: 24px;
-    color: #60A340;
+    color: var(--verde-soc);
 }
 /*---------Certificaciones---------*/
 
@@ -135,14 +134,14 @@ h2{
     margin-bottom: 45px;
 }
 .links-cert{
-    color: #60A340;
+    color: var(--verde-soc);
     font-weight: 600;
     font-size: 32px;
 }
 .links-cert:hover{
     font-weight: 650;
     font-size: 33px;
-    color: #60A340;
+    color: var(--verde-soc);
 }
 .certificacion{
     margin-top: 85px;
