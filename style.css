@@ -1,0 +1,233 @@
+:root{
+    --bg-login: #F2F2F2;
+    --text-login: #215287;
+    --verde-soc: #60A340;
+    --deg: linear-gradient(90deg, #00588A 0%, #01A9CE 51.56%, #009B4D 100%);
+}
+
+body{
+    background-color: var(--bg-login);
+    font-family: 'Open Sans';
+}
+.link-nav{
+    margin-right: 30px;
+    font-size: 25px;
+    color: var(--text-login);
+    font-weight: 500;
+}
+.link-nav:hover{
+    color: var(--verde-soc);
+    font-weight: 600;
+    text-decoration:underline;
+
+}
+img{
+    width: 220px;
+    height: auto;
+    /*-margin-left: 45px;-*/
+}
+.navbar{
+    background-color: white !important;
+    box-shadow: 0px 2px 30px rgb(0 0 0 / 5%);
+}
+.img-login{
+    width: fit-content;
+}
+.login-conten{
+    margin-top: 35px;
+}
+.card{
+    margin: auto;
+    background-color: var(--bg-login);
+    border-color: var(--bg-login);
+}
+.login-text{
+    margin: auto;
+}
+.card-text{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--text-login);
+}
+h5{
+    font-size: 60px;
+    font-weight: 800;
+    background: var(--deg);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.btn-bg{
+    background: var(--deg);
+    color: white;
+    width: 450px;
+    border: none;
+    font-size: 32px;
+}
+.btn-bg:hover{
+    color: #009B4D;
+    text-decoration:underline;
+    background: #fff;
+}
+.footer-dg{
+    align-self: start;
+    text-align: center;
+    background: var(--deg);
+    height: 40px;
+    margin-top: 90px;
+}
+
+.link-back{
+    color: var(--text-login);
+    font-weight: 500;
+    font-size: 22px;
+}
+.btn-back{
+    background-color: var(--text-login);
+    color: white;
+    border-color: var(--text-login);
+    margin-top: 30px;
+    text-decoration: none !important;
+}
+.btn-back:hover{
+    background-color:white;
+    color: var(--text-login);
+    border-color: var(--text-login);
+}
+/*--------Style Cursos------*/
+.bg-color{
+    background-color: #FFFFFF;
+}
+.titulo{
+    color: #23558F;
+    font-weight: 600;
+    font-size: 45px;
+}
+.sub-titulo{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.rounded{
+    width: 400px;
+    margin-bottom: 22px;
+}
+h2{
+    color: #23558F;
+    font-weight: 600;
+    font-size: 33px;
+}
+.descargar-curso{
+    color: var(--verde-soc);
+    text-decoration:underline;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.descargar-curso:hover{
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--verde-soc);
+}
+/*---------Certificaciones---------*/
+
+.img-fluid{
+    width: fit-content;
+    margin-bottom: 45px;
+}
+.links-cert{
+    color: var(--verde-soc);
+    font-weight: 600;
+    font-size: 32px;
+}
+.links-cert:hover{
+    font-weight: 650;
+    font-size: 33px;
+    color: var(--verde-soc);
+}
+.certificacion{
+    margin-top: 85px;
+}
+
+/*------Asesor-hipotecario----*/
+.img-cert{
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.asesor-link{
+    margin-bottom: 30px;
+}
+
+/*--------Perfil asesor--------*/
+.ico-asesor{
+    width: 150px;
+}
+.img-certificacion{
+    width: auto;
+}
+.boton{
+    background-color: var(--verde-soc);
+    color: white;
+    border-color: var(--verde-soc);
+    transition-duration: 0.4s;
+}
+.boton:hover {
+    text-decoration: none;
+    color: var(--verde-soc);
+    border-color: var(--verde-soc);
+  }
+.ver-curso{
+      text-decoration: none;
+      color: white;
+}
+.ver-curso:hover{
+      text-decoration: none;
+      color: var(--verde-soc);
+}
+  
+
+
+h3{
+    text-align: start;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.nav-link{
+    color: #23558F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.nav-bg{
+height: 130px;
+margin-bottom: 55px;
+align-items: center;
+background: #FFFFFF;
+box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.15);
+}
+.logo-nav{
+    width: 250px;
+    margin-left: 63px;
+}
+
+
+/*----MQ----*/
+
+
+
+@media (max-width: 375px){
+    .container{max-width: fit-content !important;}   
+    body{max-width: fit-content !important;}  
+    .btn-bg{width: fit-content; margin: 42px 0;}   
+    .navbar{width: fit-content;}     
+    .footer-dg{margin-top: 22px;}
+    .img-fluid{margin: 18px 0px;}
+}   
+
+
+@media (max-width: 400px){
+    .container{max-width: fit-content !important;}   
+    body{max-width: fit-content !important;}            
+}   
