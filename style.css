@@ -73,7 +73,7 @@ h5{
     text-align: center;
     background: var(--deg);
     height: 40px;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .link-back{
@@ -217,13 +217,17 @@ box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.
 
 
 
-@media (max-width: 375px){
+@media (max-width: 576px){
     .container{max-width: fit-content !important;}   
     body{max-width: fit-content !important;}  
-    .btn-bg{width: fit-content; margin: 42px 0;}   
-    .navbar{width: fit-content;}     
+    .btn-bg{width: 300px; margin: 22px 0;}   
+    .navbar{width: fit-content;}   
+    .navbar-brand{margin: auto;}
+    .nav-link{font-size: 18px; text-align: center;}  
     .footer-dg{margin-top: 22px;}
     .img-fluid{margin: 18px 0px;}
+    .card-title{font-size: 55px; font-weight: 800;}
+    .card-text{font-size: 28px;}
 }   
 
 
