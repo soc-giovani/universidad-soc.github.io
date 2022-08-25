@@ -183,9 +183,6 @@ h2{
       text-decoration: none;
       color: var(--verde-soc);
 }
-  
-
-
 h3{
     text-align: start;
     font-size: 24px;
@@ -214,9 +211,6 @@ box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.
 
 
 /*----MQ----*/
-
-
-
 @media (max-width: 576px){
     .container{max-width: fit-content !important;}   
     body{max-width: fit-content !important;}  
@@ -230,10 +224,9 @@ box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.
     .card-text{font-size: 28px;}
     .rounded{width: 360px;}
     .d-flex{margin: auto;}
+    .img-certificacion{width: 360px; }
 
 }   
-
-
 @media (max-width: 400px){
     .container{max-width: fit-content !important;}   
     body{max-width: fit-content !important;}            
