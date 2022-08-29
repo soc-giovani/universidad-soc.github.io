@@ -151,9 +151,6 @@ h2{
 .img-cert{
     width: 70%;
     margin-top: 100px;
-    margin-bottom: 80px;
-}
-.asesor-link{
     margin-bottom: 30px;
 }
 
@@ -164,11 +161,15 @@ h2{
 .img-certificacion{
     width: auto;
 }
+.card-asesor{
+    margin-bottom: 35px;
+}
 .boton{
     background-color: var(--verde-soc);
     color: white;
     border-color: var(--verde-soc);
     transition-duration: 0.4s;
+    width: 400px;
 }
 .boton:hover {
     text-decoration: none;
@@ -226,6 +227,7 @@ box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.
     .d-flex{margin: auto;}
     .img-certificacion{width: 360px; }
     .card-certificacion{margin-bottom: 55px !important;}
+    .boton{width: 300px !important;}
 
 }   
 @media (max-width: 400px){
