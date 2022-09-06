@@ -10,7 +10,7 @@ body{
     font-family: 'Open Sans';
 }
 .link-nav{
-    margin-right: 30px;
+    /* margin-right: 30px; */
     font-size: 25px;
     color: var(--text-login);
     font-weight: 500;
@@ -71,9 +71,31 @@ h5{
 .footer-dg{
     align-self: start;
     text-align: center;
-    background: var(--deg);
-    height: 40px;
     margin-top: 50px;
+}
+footer{
+    background-color: #F5FAFF;
+}
+.titulo-footer{
+    font-weight: 800;
+    font-size: 28px;
+    margin: 25px 0px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #40516F;
+}
+.sub-titulos-footer{
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.2px;
+color: #015694;
+}
+.texto-footer{
+    text-align: start;
+}
+.col-md-4{
+    margin-bottom: 32px;
 }
 
 .link-back{
@@ -197,6 +219,7 @@ h3{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    margin: 0px 16px;
 }
 .nav-bg{
 height: 130px;
@@ -232,5 +255,13 @@ box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.
 }   
 @media (max-width: 400px){
     .container{max-width: fit-content !important;}   
-    body{max-width: fit-content !important;}            
+    body{max-width: fit-content !important;}      
+    .link-nav{
+        font-size: 16px;
+        margin: 0px 6px;
+    }   
+    .texto-footer{
+        text-align: center;
+        margin-top: 16px;
+    }
 }   
