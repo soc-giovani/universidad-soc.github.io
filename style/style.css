@@ -1,7 +1,8 @@
 :root{
     --bg-login: #F2F2F2;
-    --text-login: #215287;
-    --verde-soc: #60A340;
+    --text-login: #40516f;
+    --encabezados: #015694;
+    --verde-soc: #4aa84f;
     --deg: linear-gradient(90deg, #00588A 0%, #01A9CE 51.56%, #009B4D 100%);
 }
 
@@ -49,24 +50,32 @@ img{
     font-weight: 500;
     color: var(--text-login);
 }
-h5{
+h1{
     font-size: 60px;
+    font-weight: 800;
+    color: var(--encabezados);
+}
+p{
+    font-size: 16px !important;
+}
+h5{
+    font-size: 48px;
     font-weight: 800;
     background: var(--deg);
     -webkit-background-clip: text;
     color: transparent;
 }
 .btn-bg{
-    background: var(--deg);
+    background: var(--verde-soc);
     color: white;
     width: 450px;
     border: none;
     font-size: 32px;
 }
 .btn-bg:hover{
-    color: #009B4D;
+    color: white;
     text-decoration:underline;
-    background: #fff;
+    background: var(--verde-soc);
 }
 .footer-dg{
     align-self: start;
