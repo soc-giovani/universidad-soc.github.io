@@ -10,17 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     </head>
     <body class="bg-color">
-        <nav class="navbar bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                <img src="img/logo-universidad.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                </a>
-            <form class="d-flex">
-                <a class="nav-link link-nav" href="cursos.html">Cursos</a>
-                <a class="nav-link link-nav" href="certificacion.html">Certificaciones</a>
-                <a class="nav-link link-nav" href="#">Actividades del mes</a>
-            </form>
+      <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="logo-img" src="img/logo-universidad.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="flex-grow:0;" id="navbarScroll">
+              <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-nav" href="certificacion.html">Certificaciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-nav" href="#">Actividades del mes</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
         <div class="container text-center login-conten">
           <div class="row">
