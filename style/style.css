@@ -87,6 +87,8 @@ h1{
 }
 p{
     font-size: 16px !important;
+}
+.accordion-body{
     text-align: start;
 }
 h5{
