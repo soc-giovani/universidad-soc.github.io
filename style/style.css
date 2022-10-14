@@ -88,15 +88,8 @@ h1{
 p{
     font-size: 16px !important;
 }
-.accordion-body{
+.requsitos-texto{
     text-align: start;
-}
-h5{
-    font-size: 48px;
-    font-weight: 800;
-    background: var(--deg);
-    -webkit-background-clip: text;
-    color: transparent;
 }
 .btn-bg{
     background: var(--verde-soc);
