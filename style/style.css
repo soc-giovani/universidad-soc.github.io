@@ -10,26 +10,56 @@ body{
     background-color: var(--bg-login);
     font-family: 'Open Sans';
 }
+/*-----------NAV-----------*/
 .link-nav{
     /* margin-right: 30px; */
-    font-size: 25px;
+    font-size: 20px;
     color: var(--text-login);
     font-weight: 500;
+}
+.logo-img{
+    width: 170px;
+    margin-left: 55px;
+}
+.active{
+    color: var(--verde-soc) !important;
 }
 .link-nav:hover{
     color: var(--verde-soc);
     font-weight: 600;
     text-decoration:underline;
-
 }
+.navbar{
+    background-color: white !important;
+    height: 70px;
+    box-shadow: 0px 2px 30px rgb(0 0 0 / 5%);
+}
+.nav-link{
+    color: #23558F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0px 16px;
+}
+.nav-bg{
+    margin-bottom: 55px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.15);
+}
+.logo-nav{
+    width: 250px;
+    margin-left: 63px;
+}
+.logo{
+    width: 150px;
+    margin: auto;
+}
+/*-----------Fin NAV-----------*/
 img{
     width: 220px;
     height: auto;
     /*-margin-left: 45px;-*/
-}
-.navbar{
-    background-color: white !important;
-    box-shadow: 0px 2px 30px rgb(0 0 0 / 5%);
 }
 .img-login{
     width: fit-content;
@@ -90,7 +120,7 @@ footer{
     font-size: 28px;
     margin: 25px 0px;
     line-height: 46px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0.2px;
     color: #40516F;
 }
@@ -98,12 +128,13 @@ footer{
 font-weight: 700;
 letter-spacing: 0.2px;
 color: #015694;
+text-align: start;
 }
 .texto-footer{
     text-align: start;
 }
 .col-md-4{
-    margin-bottom: 32px;
+    margin-bottom: 22px;
 }
 
 .link-back{
@@ -187,6 +218,7 @@ h2{
     width: 700px;
     margin: auto;
 }
+
 /*--------Perfil asesor--------*/
 .img-certificacion{
     width: auto;
@@ -222,43 +254,25 @@ h3{
     margin-top: 55px;
     margin-bottom: 55px;
 }
-.nav-link{
-    color: #23558F;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    margin: 0px 16px;
-}
-.nav-bg{
-height: 130px;
-margin-bottom: 55px;
-align-items: center;
-background: #FFFFFF;
-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25), inset 0px -2px 8px rgba(0, 0, 0, 0.15);
-}
-.logo-nav{
-    width: 250px;
-    margin-left: 63px;
-}
-
 
 /*----MQ----*/
 @media (max-width: 576px){
     .container{max-width: fit-content !important;}   
     body{max-width: fit-content !important;}  
-    .btn-bg{width: 300px; margin: 22px 0;}   
-    .navbar{width: fit-content;}   
-    .navbar-brand{margin: auto;}
+    .btn-bg{width: 300px; margin: 22px 0;}
+    .logo-img{margin-left: 8px; width: 120px;}
     .nav-link{font-size: 16px; text-align: center;}  
     .footer-dg{margin-top: 22px;}
     .img-fluid{margin: 18px 0px;}
     .card-title{font-size: 55px; font-weight: 800;}
     .card-text{font-size: 28px;}
-    .rounded{width: 360px;}
+    .rounded{width: 350px;}
     .d-flex{margin: auto;}
     .img-certificacion{width: 360px; }
     .card-certificacion{margin-bottom: 55px !important;}
     .boton{width: 300px !important;}
+    .titulo-footer{text-align: center;}
+    .sub-titulos-footer{text-align: center;}
 
 }   
 @media (max-width: 400px){
