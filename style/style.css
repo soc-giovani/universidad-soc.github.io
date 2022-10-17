@@ -299,6 +299,12 @@ h3{
 }
 
 /*----MQ----*/
+@media (max-width: 768px) {
+    .navbar{
+        height: auto;
+        width: 105%;
+    }
+} 
 @media (max-width: 576px){
     .container{max-width: fit-content !important;}   
     body{max-width: fit-content !important;}  
@@ -326,12 +332,6 @@ h3{
     }
 
 }  
-@media (max-width: 768px) {
-    .navbar{
-        height: auto;
-        width: auto;
-    }
-} 
 @media (max-width: 400px){
     .container{max-width: fit-content !important;}   
     body{
