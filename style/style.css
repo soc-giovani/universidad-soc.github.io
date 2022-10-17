@@ -187,6 +187,9 @@ h2{
     font-size: 24px;
     color: var(--verde-soc);
 }
+.subTitulo{
+    margin-bottom: 35px;
+}
 /*---------Certificaciones---------*/
 
 .img-fluid{
@@ -205,6 +208,18 @@ h2{
 }
 .certificacion{
     margin-top: 85px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-login);
+}
+a:hover {
+    text-decoration:underline;
+    color: var(--verde-soc);
+    border-color: var(--verde-soc);
+  }
+.card{
+    background-color: #fdfdff;
 }
 
 /*------Asesor-hipotecario----*/
