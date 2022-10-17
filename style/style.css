@@ -250,6 +250,10 @@ a:hover {
   .accordion-button{
     color: var(--text-login);
   }
+  .accordion-button:not(.collapsed){
+    color: #009B4D;
+    background-color: white;
+  }
 
 /*------Asesor-hipotecario----*/
 .img-cert{
@@ -304,6 +308,10 @@ h3{
     .col-sm-4{
         width: 50%;
     }
+    .accordion-item{
+        width: 700px;
+        margin: auto;
+    }
 } 
 @media (max-width: 768px) {
     .navbar{
@@ -312,6 +320,10 @@ h3{
     }
     .col-sm-4{
         width: 100%;
+    }
+    .accordion-item{
+        width: 80%;
+        margin: auto;
     }
 } 
 @media (max-width: 576px){
@@ -330,6 +342,7 @@ h3{
     .card-certificacion{margin-bottom: 55px !important;}
     .boton{width: 300px !important;}
     .titulo-footer{text-align: center;}
+    .texto-footer{text-align: center;}
     .header-footer{text-align: center;}
     .sub-titulos-footer{text-align: center;}
     .navbar{
@@ -338,6 +351,10 @@ h3{
     }
     .col-sm-4{
         width: 100%;
+    }
+    .accordion-item{
+        width: 90%;
+        margin: auto;
     }
 
 }  
@@ -355,7 +372,7 @@ h3{
         margin-top: 16px;
     }
     .accordion-item{
-        width: 300px;
+        width: 80%;
         margin: auto;
     }
     .navbar{
