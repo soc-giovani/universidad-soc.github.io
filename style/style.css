@@ -180,7 +180,6 @@ footer{
     font-size: 20px;
 }
 .rounded{
-    width: 350px;
     margin-bottom: 22px;
 }
 h2{
@@ -258,7 +257,7 @@ a:hover {
 
 /*--------Perfil asesor--------*/
 .img-certificacion{
-    width: auto;
+    width: inherit;
 }
 .card-asesor{
     margin-bottom: 35px;
@@ -319,7 +318,10 @@ h3{
         width: 100%;
     }
 
-}   
+}  
+@media (min-width: 576px) {
+    
+} 
 @media (max-width: 400px){
     .container{max-width: fit-content !important;}   
     body{
