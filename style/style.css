@@ -209,6 +209,9 @@ h2{
 .certificacion{
     margin-top: 85px;
 }
+.bg-card{
+    background-color: white;
+}
 a{
     text-decoration: none;
     color: var(--text-login);
@@ -218,9 +221,6 @@ a:hover {
     color: var(--verde-soc);
     border-color: var(--verde-soc);
   }
-.card{
-    background-color: #fdfdff;
-}
 
 /*------Asesor-hipotecario----*/
 .img-cert{
