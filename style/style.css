@@ -299,10 +299,19 @@ h3{
 }
 
 /*----MQ----*/
+
+@media (max-width: 992px) {
+    .col-sm-4{
+        width: 50%;
+    }
+} 
 @media (max-width: 768px) {
     .navbar{
         height: auto;
         width: 105%;
+    }
+    .col-sm-4{
+        width: 100%;
     }
 } 
 @media (max-width: 576px){
