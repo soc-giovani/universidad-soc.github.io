@@ -211,6 +211,7 @@ h2{
 }
 .bg-card{
     background-color: white;
+    margin-bottom: 25px ;
 }
 a{
     text-decoration: none;
@@ -220,6 +221,12 @@ a:hover {
     text-decoration:underline;
     color: var(--verde-soc);
     border-color: var(--verde-soc);
+  }
+  .tipo-certificacion{
+    text-decoration: none;
+    color: var(--text-login);
+    text-align: start;
+    margin-left: 15px;
   }
 
 /*------Asesor-hipotecario----*/
@@ -287,6 +294,13 @@ h3{
     .boton{width: 300px !important;}
     .titulo-footer{text-align: center;}
     .sub-titulos-footer{text-align: center;}
+    .navbar{
+        height: auto;
+        width: 576px;
+    }
+    .col-sm-4{
+        width: 100%;
+    }
 
 }   
 @media (max-width: 400px){
@@ -303,5 +317,15 @@ h3{
     .accordion-item{
         width: 300px;
         margin: auto;
+    }
+    .navbar{
+        height: auto;
+        width: 400px;
+    }
+}   
+@media (max-width: 375px){
+    .navbar{
+        height: auto;
+        width: 375px;
     }
 }   
