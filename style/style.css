@@ -244,6 +244,9 @@ a:hover {
   .accordion-content{
     text-align: start;
   }
+  .accordion-button{
+    color: var(--text-login);
+  }
 
 /*------Asesor-hipotecario----*/
 .img-cert{
