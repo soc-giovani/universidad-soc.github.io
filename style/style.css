@@ -285,6 +285,22 @@ a:hover {
     color: var(--verde-soc);
     border-color: var(--verde-soc);
   }
+
+
+.botonDescarga{
+    background-color: white;
+    color: var(--verde-soc);
+    border-color: var(--verde-soc);
+    transition-duration: 0.4s;
+    width: 400px;
+    --bs-btn-color:var(--verde-soc);
+}
+.botonDescarga:hover {
+    text-decoration: none;
+    color: var(--verde-soc);
+    background-color: white;
+    border-color: var(--verde-soc);
+  }
 .ver-curso{
       text-decoration: none;
       color: white;
