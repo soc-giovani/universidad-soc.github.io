@@ -228,6 +228,9 @@ a:hover {
     text-align: start;
     margin-left: 15px;
   }
+  .accordion-content{
+    text-align: start;
+  }
 
 /*------Asesor-hipotecario----*/
 .img-cert{
