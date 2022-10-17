@@ -230,6 +230,9 @@ a{
     text-decoration: none;
     color: var(--text-login);
 }
+h5{
+    color: var(--text-login);
+}
 a:hover {
     text-decoration:underline;
     color: var(--verde-soc);
@@ -323,8 +326,11 @@ h3{
     }
 
 }  
-@media (min-width: 576px) {
-
+@media (max-width: 768px) {
+    .navbar{
+        height: auto;
+        width: auto;
+    }
 } 
 @media (max-width: 400px){
     .container{max-width: fit-content !important;}   
