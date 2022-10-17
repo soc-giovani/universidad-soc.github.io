@@ -106,6 +106,7 @@ p{
     text-decoration:underline;
     background: var(--verde-soc);
 }
+/*-------Footer----*/
 .footer-dg{
     align-self: start;
     text-align: center;
@@ -114,27 +115,39 @@ p{
 footer{
     background-color: #F5FAFF;
 }
-.titulo-footer{
+.header-footer{
     font-weight: 800;
     font-size: 28px;
     margin: 25px 0px;
     line-height: 46px;
     text-align: start;
     letter-spacing: 0.2px;
-    color: #40516F;
+    color: #015694;
 }
 .sub-titulos-footer{
-font-weight: 700;
-letter-spacing: 0.2px;
-color: #015694;
-text-align: start;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #40516F;
+    text-align: start;
+    text-decoration: underline;
+    margin-bottom: 32px;
+}
+.titulo-footer{
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #40516F;
+    text-align: start;
+    margin-bottom: 3px;
 }
 .texto-footer{
     text-align: start;
+    color: #40516F;
+    margin-bottom: 3px;
 }
 .col-md-4{
-    margin-bottom: 22px;
+    margin-bottom: 42px;
 }
+/*------Fin Footer----*/
 
 .link-back{
     color: var(--text-login);
@@ -296,6 +309,7 @@ h3{
     .card-certificacion{margin-bottom: 55px !important;}
     .boton{width: 300px !important;}
     .titulo-footer{text-align: center;}
+    .header-footer{text-align: center;}
     .sub-titulos-footer{text-align: center;}
     .navbar{
         height: auto;
@@ -308,7 +322,9 @@ h3{
 }   
 @media (max-width: 400px){
     .container{max-width: fit-content !important;}   
-    body{max-width: fit-content !important;}      
+    body{
+        max-width: fit-content !important;
+    }      
     .link-nav{
         font-size: 16px;
         margin: 0px 6px;
