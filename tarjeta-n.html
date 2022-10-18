@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <title>Tarjeta</title>
+</head>
+<body>
+    
+    <main>
+        <div class="container contain-logo">
+            <div class="logo" style="width: 500px;">
+                <img class="logo-hyp" src="logo-n.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-6" style="width:max-content">
+                <h1 >Sócrates Martín<a style="font-size:8px;" href="index.html">Ver credencial</a></h1>
+                <h2>Asesor</h2>
+                <p>socratesmartin@socasesores.com</p>
+                <p>01 (55) 7580 8525</p>
+                <p>socasesores.com</p>
+            </div>
+            <div class="col-6">
+                <p>Hamburgo 227, Colonia Juárez,</p>
+                <p>Alcaldía Cuauthémoc,</p>
+                <p>México CDMX 06600</p>
+            </div>
+        </div>
+    </main>
+    <style>
+        body{
+            width: 900px;
+            background-color: white;
+            margin: 0;
+            font: inherit;
+            vertical-align: baseline;
+            font-family: 'CircularXX-Regular';
+        }
+        .container{
+            margin: 0px 25px;
+            height: 470px;
+        }
+        .contain-logo{
+            height: 500px;
+            align-items: center;
+            display: flex;
+        }
+        .logo-hyp{
+            width: 420px;
+        }
+        .col-6{
+            display: inline-block;
+            /*grid-template-columns: 1fr;
+            grid-gap: 1em;*/
+        }
+        .col-3{
+            display: inline-block;
+            margin:0px 13px;
+            margin-top: 5px;
+        }
+        h1{
+            font-size: 48px;
+            color: #006D4E;
+            margin-bottom: 2px;
+            font-family: 'CircularXX-Regular';
+            font-weight: 600;
+        }
+        h2{
+            font-size: 34px;
+            color: #006D4E;
+            margin-bottom: 15px;
+            margin-top: 2px;
+            margin-top: 5px;
+            font-weight: 300;
+        }
+        p{
+            font-size: 26px;
+            color: #006D4E;
+            margin: 0px;
+        }
+        .rs{        
+            width: 40px;
+            margin-right: 9px;
+            margin-top: 5px;
+            margin-bottom: -10px;
+        }
+        a{
+            font-size: 22px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        .qr{
+            margin-left: 70px;
+            width: 155px;
+            margin-bottom: 210px;
+        }
+        footer{
+            height: 60px;
+            background:  linear-gradient(270deg, #7DF150 0%, #81EFEB 50.91%, #2857CA 100%);
+            align-items: center;
+            text-align: center;
+            color: white;
+            width: 900px;
+            margin-bottom: 0px !important;
+        }
+        /*---Font--*/
+        @font-face {
+            font-family: CircularXX-Regular;
+            src: url('font/CircularXX-Regular.otf');
+        }
+
+    </style>
+</body>
+</html>
