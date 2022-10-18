@@ -292,7 +292,7 @@ a:hover {
     color: var(--verde-soc);
     border-color: var(--verde-soc);
     transition-duration: 0.4s;
-    width: 400px;
+    width: 250px;
     --bs-btn-color:var(--verde-soc);
 }
 .botonDescarga:hover {
