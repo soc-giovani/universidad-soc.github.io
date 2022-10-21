@@ -177,7 +177,7 @@ footer{
     font-size: 45px;
 }
 .sub-titulo{
-    margin-bottom: 35px;
+    /*-----margin-bottom: 8px;----*/
     font-size: 20px;
 }
 .rounded{
@@ -268,7 +268,7 @@ a:hover {
 
 /*--------Perfil asesor--------*/
 .img-certificacion{
-    width: inherit;
+    width: 100%;
 }
 .card-asesor{
     margin-bottom: 35px;
